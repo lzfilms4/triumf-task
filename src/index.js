@@ -526,4 +526,6 @@ class EditorApp extends HTMLElement {
     }
 }
 
-customElements.define("editor-app", EditorApp)
+if (!customElements.get("editor-app")) {
+    customElements.define("editor-app", EditorApp)
+}

@@ -4,9 +4,18 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Web Component</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            .editor-app {
+                display: flex;
+                height: 100vh;
+            }
+        </style>
     </head>
     <body>
-        <editor-app></editor-app>
+        <editor-app class="editor-app"></editor-app>
         <script src="tinymce/tinymce.min.js"></script>
         <script src="webcomp-boilerplate.js"></script>
     </body>
